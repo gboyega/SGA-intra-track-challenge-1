@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans&display=swap');
+footer {
+    overflow-inline: 17px;
+    line-height: 24px;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(85, 85, 85);
+    font-family: "Encode Sans", Helvetica, Arial, sans-serif;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+#footer {
+    line-height: 24px;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Encode Sans", Helvetica, Arial, sans-serif;
+    box-sizing: inherit;
+    margin: 0px;
+    outline: 0px;
+    display: flex;
+    font-size: 16px;
+    background-color: rgb(38, 41, 49);
+    color: rgb(132, 135, 140);
+    border-top: 3px solid rgb(20, 125, 210);
+    padding: 48px 28px 0px;
+}
+
+#footer>div {
+    line-height: 24px;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Encode Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(132, 135, 140);
+    box-sizing: inherit;
+    padding: 0px;
+    outline: 0px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#footer>div>div.row.gutters {
+    line-height: 24px;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Encode Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(132, 135, 140);
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -2%;
+}
+
+#footer>div>div.row.gutters>div:nth-child(1) {
+    line-height: 24px;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Encode Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(132, 135, 140);
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    width: calc(48%);
+    margin-left: 2%;
+}
+
+#footer>div>div.row.gutters>div:nth-child(2) {
+    line-height: 24px;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Encode Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(132, 135, 140);
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    width: calc(48%);
+    margin-left: 2%;
+}
+
+nav {
+    line-height: 24px;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Encode Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(132, 135, 140);
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    order: 2;
+    margin-left: auto;
+}
+
+#footer>div>div.row.gutters>div:nth-child(1)>nav>div {
+    line-height: 24px;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Encode Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+#footer>div>div.row.gutters>div:nth-child(2)>nav>div {
+    line-height: 24px;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Encode Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+ul {
+    line-height: 24px;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Encode Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(132, 135, 140);
+    box-sizing: inherit;
+    padding: 0px;
+    outline: 0px;
+    margin: 0px;
+    list-style: none;
+    display: block;
+}
+
+li {
+    line-height: 24px;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Encode Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(132, 135, 140);
+    list-style: none;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(44, 52, 65);
+}
+
+a {
+    text-decoration: none;
+    color: #147dd2;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    line-height: 24px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Encode Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #84878c;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 468px) {
+    #footer>div>div.row.gutters>div:nth-child(1) {
+        flex: 100%;
+    }
+    #footer>div>div.row.gutters>div:nth-child(2) {
+        flex: 100%;
+        padding-top: 20px;
+    }
+    nav,
+    li {
+        text-align: center;
+    }
+}
