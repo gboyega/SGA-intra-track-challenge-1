@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!--     <link rel="stylesheet" href="https://stackimpact.com/css/kube-2.0.0.min.css"> -->
+    <link rel="stylesheet" href="https://stackimpact.com/css/kube-2.0.0.min.css"> 
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
@@ -42,6 +42,21 @@
             background-position: center;
             background-repeat: no-repeat;
         }
+         @media (max-width: 468px) {
+            #footer>div>div.row.gutters>div:nth-child(1) {
+                flex: 100%;
+            }
+            #footer>div>div.row.gutters>div:nth-child(2) {
+                flex: 100%;
+                padding-top: 20px;
+            }
+            #footer>div>div.row.gutters>div:nth-child(2)>nav {
+                text-align: center;
+            } 
+             #footer>div>div.row.gutters>div:nth-child(2)>nav>ul>li:nth-child(1) {
+                text-align: center;
+            }
+        }
     </style>
    
     <title>StackImpact/</title>
@@ -57,7 +72,7 @@
         </div>
         <div class="hide-sm" id="top">
             <div id="top-brand">
-                <a href="#" title="home"><img class="desktop-logo" src="/img/logo-website-r.png" alt="StackImpact"></a>
+                <a href="#" title="home"><img class="desktop-logo" src="img/stack-logo.png" alt="StackImpact"></a>
             </div>
             <nav id="top-nav-main">
                 <ul>
