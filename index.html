@@ -1,16 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-
     <link rel="stylesheet" href="https://stackimpact.com/css/kube-2.0.0.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body{
+            font-family: 'Encode Sans',sans-serif,Helvetica,Arial;
+            font-size: 17px;
+            line-height: 24px;
+        }
 
+        .sep{
+            height: 48px;
+            width: 100%;
+        }
+
+        .gray-box{
+            background: #eff0ef;
+        }
+
+        h1, h4, h6, b{
+            font-weight: 900;
+        }
+
+        a{
+            text-decoration: underline;
+        }
+
+        .btn-h{
+
+        }
+
+        .masthead {
+            /* height: 50vh; */
+            max-height: 700px;
+            min-height: 300px;
+            background-image: url('https://stackimpact.com/img/landing/screen-bg.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+   
+    <title>StackImpact/</title>
 </head>
-
 <body>
     <header>
         <div class="show-sm">
@@ -48,8 +83,92 @@
                 </ul>
             </nav>
         </div>
+      
+      <div class="masthead">
+        <div class="container h-100 ">
+            <div class="row h-100 align-items-center ">
+                <div class="col-12 text-center  mt-3 mb-5 ">
+                    <h1 class="text-white p-3">Make applications faster</h1>
+                    <p class="lead text-muted pb-5">with production-grade performance profiler for GO, Node.js, Python and Java.</p>
+                    <div class="row justify-content-center">
+                        <button class="btn btn-primary btn-lg m-1" style="border-radius: 0; font-weight: 700;">Get Started Now</button>
+                        <button class="btn btn-outline-primary btn-lg m-1" style="border-radius: 0; font-weight: 700;">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
     </header>
 
+
+    <div class="container p-3" style="padding-top: 24px !important">
+        <div class="row gutters p-2">
+
+            <div class="col-md-4 pt-1">
+                <h6>1. SIGN UP</h6>
+                <p style="margin-bottom: 5px;">
+                    Sign up for a free account
+                </p>
+                
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2 form-control-sm" type="email" placeholder="email" aria-label="email" style="border-radius: 0; width: 40%; margin-right: 10px;" >
+                    <button class="btn btn-primary my-2 my-sm-0 btn-sm" style="border-radius: 0; font-weight: 700;">SIGN UP</button>
+                </form>
+                
+            </div>
+
+            <div class="col-md-4 pt-2">
+                <h6>2. SET UP THE AGENT</h6>
+                <p>
+                    Add the StackImpact agent to your application in minutes.<a href="#">Setup instructions.</a>
+                </p>
+            </div>
+
+            <div class="col-md-4 pt-1">
+                <h6>3. INSPECT YOUR APPLICATION</h6>
+                <p>
+                    See code-level application performance data in the <a href="#">Dashboard.</a>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="sep"></div>
+
+        <div class="gray-box p-4" style="width: 100%; text-align: center">
+            <h4>Continuous Performance Profiling</h4>
+        
+            <p class="cont">StackImpact profiles running applications <b>automatically</b> and <b>continuously</b>. No need to manually
+                record profiles, convert and compare them. The historical performance data is always readily available in the
+                Dashboard.</p>
+        
+            <a href="/features"><img src="https://stackimpact.com/img/landing/dashboard-1.5-2x.png" style="width: 90%; border: 1px solid #e6e6e6"></a>
+
+            <div style="margin-top: 12px">
+                <a href="#">Learn more</a> about StackImpact’s features.
+            </div>
+        </div>
+
+        <div class="sep"></div>
+        
+        <div class="gray-box p-4" style="width: 100%; text-align: center">
+            <h4>Profiling in any Environment</h4>
+        
+            <p class="cont">StackImpact Profiler seamlessly supports both <b>development</b> and <b>production</b> environments. Whether on a
+                developer machine or in a dynamically scalable cloud environment, low-overhead profiling continuously provides
+                code-level insights into CPU usage, memory allocations, thread contention as well as latency of Golang, Node.js,
+                Python and Java applications.
+            </p>
+        
+            <div style="margin-top: 24px">
+                <button class="btn btn-primary btn-lg btn0" style="border-radius: 0; font-weight: 700;">Get Started Now</button>
+            </div>
+        
+        </div>
+
+        <div class="sep"></div>
+    </div>
+  
     <footer>
         <footer id="footer">
             <div class="footer-box">
@@ -106,5 +225,4 @@
             </div>
         </footer>
 </body>
-
 </html>
